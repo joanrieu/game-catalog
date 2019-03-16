@@ -6,16 +6,26 @@ import PlatformFilter from "./PlatformFilter";
 import GameCard from "./GameCard";
 
 describe("Catalog", () => {
-  it("has a header", () => {
-    const cmp = renderer.create(<Catalog />);
-    expect(cmp.root.findByType(Header)).toBeTruthy();
-  });
-  it("has a platform filter", () => {
-    const cmp = renderer.create(<Catalog />);
-    expect(cmp.root.findByType(PlatformFilter)).toBeTruthy();
-  });
-  it("renders a list of games", () => {
-    const cmp = renderer.create(<Catalog />);
-    expect(cmp.root.findAllByType(GameCard).length).toBeGreaterThan(0);
+  it("has a header, a platform filter and a list of games", () => {
+    const cmp = renderer.create(
+      <Catalog
+        platforms={["PC", "PS4", "Xbox", "GBA"]}
+        games={[
+          {
+            title: "Rayman",
+            platform: "GBA"
+          },
+          {
+            title: "Rainbow Six",
+            platform: "PC"
+          },
+          {
+            title: "Just Dance",
+            platform: "Xbox"
+          }
+        ]}
+      />
+    );
+    expect(cmp).toMatchSnapshot();
   });
 });

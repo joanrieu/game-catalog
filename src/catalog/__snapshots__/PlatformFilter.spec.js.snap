@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlatformFilter has a list of platforms 1`] = `
+.c0 {
+  padding: 16px;
+}
+
+.c1 {
+  border: none;
+  background: transparent;
+  font: inherit;
+  color: inherit;
+  outline-color: #FE6050;
+  text-transform: uppercase;
+}
+
+.c1:not(:last-child) {
+  margin-right: 28px;
+}
+
+.c2 {
+  border: none;
+  background: transparent;
+  font: inherit;
+  color: #FE6050;
+  outline-color: #FE6050;
+  text-transform: uppercase;
+}
+
+.c2:not(:last-child) {
+  margin-right: 28px;
+}
+
+<nav
+  className="c0"
+>
+  <button
+    className="c1"
+    onClick={[Function]}
+  >
+    All
+  </button>
+  <button
+    className="c1"
+    onClick={[Function]}
+  >
+    PC
+  </button>
+  <button
+    className="c2"
+    onClick={[Function]}
+  >
+    PS4
+  </button>
+  <button
+    className="c1"
+    onClick={[Function]}
+  >
+    Xbox
+  </button>
+</nav>
+`;

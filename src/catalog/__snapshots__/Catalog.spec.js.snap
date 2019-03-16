@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Catalog has a header, a platform filter and a list of games 1`] = `
+<div>
+  <header
+    className="sc-bdVaJa DnvYQ"
+  >
+    <img
+      className="sc-bwzfXH ZQnxd"
+      src="ASSET"
+    />
+    <h1
+      className="sc-htpNat bqQPaO"
+    >
+      Game catalog
+    </h1>
+  </header>
+  <nav
+    className="sc-bxivhb hyktqA"
+  >
+    <button
+      className="sc-ifAKCX lnbSfD"
+      onClick={[Function]}
+    >
+      All
+    </button>
+    <button
+      className="sc-ifAKCX vfORQ"
+      onClick={[Function]}
+    >
+      PC
+    </button>
+    <button
+      className="sc-ifAKCX vfORQ"
+      onClick={[Function]}
+    >
+      PS4
+    </button>
+    <button
+      className="sc-ifAKCX vfORQ"
+      onClick={[Function]}
+    >
+      Xbox
+    </button>
+    <button
+      className="sc-ifAKCX vfORQ"
+      onClick={[Function]}
+    >
+      GBA
+    </button>
+  </nav>
+  <div>
+    <section
+      className="sc-EHOje lgVjlt"
+    >
+      <img
+        className="sc-bZQynM cqXnZb"
+      />
+      <div
+        className="sc-gzVnrw jVtKtz"
+      >
+        <h2
+          className="sc-htoDjs jJFWZZ"
+        >
+          Rayman
+        </h2>
+        <p
+          className="sc-dnqmqq dpSZvM"
+        >
+          GBA
+        </p>
+      </div>
+    </section>
+    <section
+      className="sc-EHOje lgVjlt"
+    >
+      <img
+        className="sc-bZQynM cqXnZb"
+      />
+      <div
+        className="sc-gzVnrw jVtKtz"
+      >
+        <h2
+          className="sc-htoDjs jJFWZZ"
+        >
+          Rainbow Six
+        </h2>
+        <p
+          className="sc-dnqmqq dpSZvM"
+        >
+          PC
+        </p>
+      </div>
+    </section>
+    <section
+      className="sc-EHOje lgVjlt"
+    >
+      <img
+        className="sc-bZQynM cqXnZb"
+      />
+      <div
+        className="sc-gzVnrw jVtKtz"
+      >
+        <h2
+          className="sc-htoDjs jJFWZZ"
+        >
+          Just Dance
+        </h2>
+        <p
+          className="sc-dnqmqq dpSZvM"
+        >
+          Xbox
+        </p>
+      </div>
+    </section>
+  </div>
+</div>
+`;
