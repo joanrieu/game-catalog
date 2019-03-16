@@ -1,18 +1,18 @@
 {
   "name": "game-catalog",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Toy front-end project displaying a list of games",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joanrieu/game-catalog.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Joan Rieu <joan@joanrieu.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/joanrieu/game-catalog/issues"
   },
