@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import styled from "styled-components";
 import logoUrl from "../../assets/Video_game_controller_icon_designed_by_Maico_Amorim.svg";
 
@@ -30,3 +31,7 @@ export default function Header({ title }) {
     </Wrapper>
   );
 }
+
+Header.propTypes = {
+  title: PropTypes.string.isRequired
+};
