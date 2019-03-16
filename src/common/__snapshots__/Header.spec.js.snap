@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header has a logo and a title 1`] = `
+.c0 {
+  background-color: black;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  width: 32px;
+  height: 32px;
+  padding: 16px;
+  fill: white;
+}
+
+<header
+  className="c0"
+>
+  <img
+    className="c1"
+    src="ASSET"
+  />
+  <h1>
+    TITLE
+  </h1>
+</header>
+`;
