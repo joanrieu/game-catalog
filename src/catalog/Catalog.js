@@ -9,9 +9,9 @@ export default function Catalog() {
       <Header title="Game catalog" />
       <PlatformFilter />
       <div>
-        <GameCard />
-        <GameCard />
-        <GameCard />
+        <GameCard title="Rayman" platform="GBA" />
+        <GameCard title="Rainbow Six" platform="PC" />
+        <GameCard title="Just Dance" platform="Xbox" />
       </div>
     </div>
   );
