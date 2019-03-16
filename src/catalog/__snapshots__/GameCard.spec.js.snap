@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`GameCard has a screenshot, a title and a platform 1`] = `
+exports[`GameCard has a cover, a name and a platform 1`] = `
 .c0 {
   min-width: 320px;
-  max-width: 350px;
+  max-width: 359px;
   background: #c4c4c4;
   border-radius: 8px;
   box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
@@ -38,7 +38,7 @@ exports[`GameCard has a screenshot, a title and a platform 1`] = `
 >
   <img
     className="c1"
-    src="//placehold.it/300x300"
+    src="//placehold.it/359x411"
   />
   <div
     className="c2"
@@ -46,7 +46,7 @@ exports[`GameCard has a screenshot, a title and a platform 1`] = `
     <h2
       className="c3"
     >
-      Title
+      Game
     </h2>
     <p
       className="c4"

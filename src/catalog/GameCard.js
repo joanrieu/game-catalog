@@ -4,14 +4,14 @@ import styled from "styled-components";
 
 const Card = styled.section`
   min-width: 320px;
-  max-width: 350px;
+  max-width: 359px;
   background: #c4c4c4;
   border-radius: 8px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 `;
 
-const Screenshot = styled.img`
+const Cover = styled.img`
   height: 411px;
 `;
 
@@ -34,12 +34,12 @@ const Platform = styled.p`
   font-size: 14px;
 `;
 
-export default function GameCard({ title, platform, screenshot }) {
+export default function GameCard({ name, platform, cover }) {
   return (
     <Card>
-      <Screenshot src={screenshot} />
+      <Cover src={cover} />
       <Description>
-        <Name>{title}</Name>
+        <Name>{name}</Name>
         <Platform>{platform}</Platform>
       </Description>
     </Card>
@@ -47,7 +47,7 @@ export default function GameCard({ title, platform, screenshot }) {
 }
 
 GameCard.propTypes = {
-  title: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   platform: PropTypes.string.isRequired,
-  screenshot: PropTypes.string
+  cover: PropTypes.string.isRequired
 };

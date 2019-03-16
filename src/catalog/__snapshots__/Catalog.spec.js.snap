@@ -51,10 +51,11 @@ exports[`Catalog has a header, a platform filter and a list of games 1`] = `
   </nav>
   <div>
     <section
-      className="sc-EHOje lgVjlt"
+      className="sc-EHOje emDOoH"
     >
       <img
         className="sc-bZQynM cqXnZb"
+        src="//placehold.it/359x411"
       />
       <div
         className="sc-gzVnrw jVtKtz"
@@ -72,10 +73,11 @@ exports[`Catalog has a header, a platform filter and a list of games 1`] = `
       </div>
     </section>
     <section
-      className="sc-EHOje lgVjlt"
+      className="sc-EHOje emDOoH"
     >
       <img
         className="sc-bZQynM cqXnZb"
+        src="//placehold.it/359x411"
       />
       <div
         className="sc-gzVnrw jVtKtz"
@@ -93,10 +95,11 @@ exports[`Catalog has a header, a platform filter and a list of games 1`] = `
       </div>
     </section>
     <section
-      className="sc-EHOje lgVjlt"
+      className="sc-EHOje emDOoH"
     >
       <img
         className="sc-bZQynM cqXnZb"
+        src="//placehold.it/359x411"
       />
       <div
         className="sc-gzVnrw jVtKtz"

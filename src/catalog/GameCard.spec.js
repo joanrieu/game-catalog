@@ -4,13 +4,9 @@ import "jest-styled-components";
 import GameCard from "./GameCard";
 
 describe("GameCard", () => {
-  it("has a screenshot, a title and a platform", () => {
+  it("has a cover, a name and a platform", () => {
     const cmp = renderer.create(
-      <GameCard
-        title="Title"
-        platform="PS4"
-        screenshot="//placehold.it/300x300"
-      />
+      <GameCard name="Game" platform="PS4" cover="//placehold.it/359x411" />
     );
     expect(cmp).toMatchSnapshot();
   });

@@ -19,7 +19,7 @@ export default function Catalog({ platforms, games }) {
       />
       <div>
         {filteredGames.map(game => (
-          <GameCard key={game.title} {...game} />
+          <GameCard key={game.name} {...game} />
         ))}
       </div>
     </div>

@@ -1,14 +1,17 @@
 [
   {
-    "title": "Rayman",
-    "platform": "GBA"
+    "name": "Rayman",
+    "platform": "GBA",
+    "cover": "//placehold.it/359x411"
   },
   {
-    "title": "Rainbow Six",
-    "platform": "PC"
+    "name": "Rainbow Six",
+    "platform": "PC",
+    "cover": "//placehold.it/359x411"
   },
   {
-    "title": "Just Dance",
-    "platform": "Xbox"
+    "name": "Just Dance",
+    "platform": "Xbox",
+    "cover": "//placehold.it/359x411"
   }
 ]
