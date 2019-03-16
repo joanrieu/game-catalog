@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Catalog from "./catalog/Catalog";
+import CatalogScreen from "./catalog";
 import "./index.css";
 
-ReactDOM.render(<Catalog />, document.getElementById("root"));
+ReactDOM.render(<CatalogScreen />, document.getElementById("root"));
