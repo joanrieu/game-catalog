@@ -2,18 +2,29 @@
 
 exports[`Header has a logo and a title 1`] = `
 .c0 {
-  background-color: black;
+  background-color: #333333;
+  color: white;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c1 {
   width: 32px;
   height: 32px;
   padding: 16px;
-  fill: white;
+}
+
+.c2 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 24px;
 }
 
 <header
@@ -23,7 +34,9 @@ exports[`Header has a logo and a title 1`] = `
     className="c1"
     src="ASSET"
   />
-  <h1>
+  <h1
+    className="c2"
+  >
     TITLE
   </h1>
 </header>

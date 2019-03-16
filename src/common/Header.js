@@ -3,22 +3,30 @@ import styled from "styled-components";
 import logoUrl from "../../assets/Video_game_controller_icon_designed_by_Maico_Amorim.svg";
 
 const Wrapper = styled.header`
-  background-color: black;
+  background-color: #333333;
+  color: white;
   display: flex;
+  align-items: center;
 `;
 
 const Logo = styled.img`
   width: 32px;
   height: 32px;
   padding: 16px;
-  fill: white;
+`;
+
+const Title = styled.h1`
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 24px;
 `;
 
 export default function Header({ title }) {
   return (
     <Wrapper>
       <Logo src={logoUrl} />
-      <h1>{title}</h1>
+      <Title>{title}</Title>
     </Wrapper>
   );
 }

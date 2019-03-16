@@ -6,7 +6,7 @@ import GameCard from "./GameCard";
 export default function Catalog() {
   return (
     <div>
-      <Header />
+      <Header title="Game catalog" />
       <PlatformFilter />
       <div>
         <GameCard />
