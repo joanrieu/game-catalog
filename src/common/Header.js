@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import logoUrl from "../../assets/Video_game_controller_icon_designed_by_Maico_Amorim.svg";
 
 const Wrapper = styled.header`
@@ -24,7 +25,9 @@ const Title = styled.h1`
 export default function Header({ title }) {
   return (
     <Wrapper>
-      <Logo src={logoUrl} />
+      <Link to="/">
+        <Logo src={logoUrl} />
+      </Link>
       <Title>{title}</Title>
     </Wrapper>
   );
