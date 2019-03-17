@@ -1,6 +1,5 @@
 import React from "react";
-import renderer from "react-test-renderer";
-import "jest-styled-components";
+import { render, cleanup } from "react-testing-library";
 import Details from "./Details";
 
 const game = {
@@ -11,8 +10,10 @@ const game = {
 };
 
 describe("Details", () => {
+  afterEach(cleanup);
+
   it("has a hero image, a name, a platform and a multi-paragraph description", () => {
-    const cmp = renderer.create(<Details {...game} />);
-    expect(cmp).toMatchSnapshot();
+    const cmp = render(<Details {...game} />);
+    expect(cmp.asFragment()).toMatchSnapshot();
   });
 });

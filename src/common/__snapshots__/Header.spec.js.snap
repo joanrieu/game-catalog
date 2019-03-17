@@ -1,45 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header has a logo and a title 1`] = `
-.c0 {
-  background-color: #333333;
-  color: white;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c1 {
-  width: 32px;
-  height: 32px;
-  padding: 16px;
-}
-
-.c2 {
-  font-weight: bold;
-  font-size: 24px;
-}
-
-<header
-  className="c0"
->
-  <mock-link
-    to="/"
+<DocumentFragment>
+  <header
+    class="sc-bdVaJa DnvYQ"
   >
-    <img
-      className="c1"
-      src="ASSET"
-    />
-  </mock-link>
-  <h1
-    className="c2"
-  >
-    TITLE
-  </h1>
-</header>
+    <a
+      href="/"
+    >
+      <img
+        class="sc-bwzfXH ZQnxd"
+        src="ASSET"
+      />
+    </a>
+    <h1
+      class="sc-htpNat OaCfN"
+    >
+      TITLE
+    </h1>
+  </header>
+</DocumentFragment>
 `;

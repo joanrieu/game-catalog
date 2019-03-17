@@ -1,6 +1,5 @@
 import React from "react";
-import Renderer from "react-test-renderer/shallow";
-import "jest-styled-components";
+import { render, cleanup } from "react-testing-library";
 import Catalog from "./Catalog";
 
 const platforms = ["PC", "PS4", "Xbox", "GBA"];
@@ -24,10 +23,10 @@ const games = [
 ];
 
 describe("Catalog", () => {
+  afterEach(cleanup);
+
   it("has a header, a platform filter and a list of games", () => {
-    const cmp = new Renderer().render(
-      <Catalog platforms={platforms} games={games} />
-    );
-    expect(cmp).toMatchSnapshot();
+    const cmp = render(<Catalog platforms={platforms} games={games} />);
+    expect(cmp.asFragment()).toMatchSnapshot();
   });
 });

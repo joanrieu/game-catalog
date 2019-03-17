@@ -1,5 +1,5 @@
 import React from "react";
 
-export function Link(props) {
-  return <mock-link {...props} />;
+export function Link({ to, ...props }) {
+  return <a href={to} {...props} />;
 }

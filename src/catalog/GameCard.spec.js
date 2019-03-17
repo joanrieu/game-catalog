@@ -1,13 +1,14 @@
 import React from "react";
-import renderer from "react-test-renderer";
-import "jest-styled-components";
+import { render, cleanup } from "react-testing-library";
 import GameCard from "./GameCard";
 
 describe("GameCard", () => {
+  afterEach(cleanup);
+
   it("has a cover, a name and a platform", () => {
-    const cmp = renderer.create(
-      <GameCard name="Game" platform="PS4" cover="//placehold.it/359x411" />
+    const cmp = render(
+      <GameCard name="Rayman" platform="PS4" cover="//placehold.it/359x411" />
     );
-    expect(cmp).toMatchSnapshot();
+    expect(cmp.asFragment()).toMatchSnapshot();
   });
 });

@@ -1,49 +1,137 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Catalog has a header, a platform filter and a list of games 1`] = `
-<React.Fragment>
-  <Header
-    title="Game catalog"
-  />
-  <PlatformFilter
-    platforms={
-      Array [
-        "PC",
-        "PS4",
-        "Xbox",
-        "GBA",
-      ]
-    }
-    selectPlatform={[Function]}
-  />
-  <ForwardRef>
-    <ForwardRef
-      to="/game/0"
+<DocumentFragment>
+  <header
+    class="sc-bdVaJa DnvYQ"
+  >
+    <a
+      href="/"
     >
-      <GameCard
-        cover="//placehold.it/359x411"
-        name="Rayman"
-        platform="GBA"
+      <img
+        class="sc-bwzfXH ZQnxd"
+        src="ASSET"
       />
-    </ForwardRef>
-    <ForwardRef
-      to="/game/1"
+    </a>
+    <h1
+      class="sc-htpNat OaCfN"
     >
-      <GameCard
-        cover="//placehold.it/359x411"
-        name="Rainbow Six"
-        platform="PC"
-      />
-    </ForwardRef>
-    <ForwardRef
-      to="/game/2"
+      Game catalog
+    </h1>
+  </header>
+  <nav
+    class="sc-bxivhb hyktqA"
+  >
+    <button
+      class="sc-ifAKCX lnbSfD"
     >
-      <GameCard
-        cover="//placehold.it/359x411"
-        name="Just Dance"
-        platform="Xbox"
-      />
-    </ForwardRef>
-  </ForwardRef>
-</React.Fragment>
+      All
+    </button>
+    <button
+      class="sc-ifAKCX vfORQ"
+    >
+      PC
+    </button>
+    <button
+      class="sc-ifAKCX vfORQ"
+    >
+      PS4
+    </button>
+    <button
+      class="sc-ifAKCX vfORQ"
+    >
+      Xbox
+    </button>
+    <button
+      class="sc-ifAKCX vfORQ"
+    >
+      GBA
+    </button>
+  </nav>
+  <div
+    class="sc-gZMcBi vuaQC"
+  >
+    <a
+      class="sc-iwsKbI chHItE"
+      href="/game/0"
+    >
+      <section
+        class="sc-EHOje ctrEcs"
+      >
+        <img
+          class="sc-bZQynM jsTAZr"
+          src="//placehold.it/359x411"
+        />
+        <div
+          class="sc-gzVnrw jVtKtz"
+        >
+          <h2
+            class="sc-htoDjs ePsuFm"
+          >
+            Rayman
+          </h2>
+          <p
+            class="sc-dnqmqq krsNFX"
+          >
+            GBA
+          </p>
+        </div>
+      </section>
+    </a>
+    <a
+      class="sc-iwsKbI chHItE"
+      href="/game/1"
+    >
+      <section
+        class="sc-EHOje ctrEcs"
+      >
+        <img
+          class="sc-bZQynM jsTAZr"
+          src="//placehold.it/359x411"
+        />
+        <div
+          class="sc-gzVnrw jVtKtz"
+        >
+          <h2
+            class="sc-htoDjs ePsuFm"
+          >
+            Rainbow Six
+          </h2>
+          <p
+            class="sc-dnqmqq krsNFX"
+          >
+            PC
+          </p>
+        </div>
+      </section>
+    </a>
+    <a
+      class="sc-iwsKbI chHItE"
+      href="/game/2"
+    >
+      <section
+        class="sc-EHOje ctrEcs"
+      >
+        <img
+          class="sc-bZQynM jsTAZr"
+          src="//placehold.it/359x411"
+        />
+        <div
+          class="sc-gzVnrw jVtKtz"
+        >
+          <h2
+            class="sc-htoDjs ePsuFm"
+          >
+            Just Dance
+          </h2>
+          <p
+            class="sc-dnqmqq krsNFX"
+          >
+            Xbox
+          </p>
+        </div>
+      </section>
+    </a>
+  </div>
+</DocumentFragment>
 `;
