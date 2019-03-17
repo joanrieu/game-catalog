@@ -1,8 +1,18 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
+import styled from "styled-components";
 import Header from "../common/Header";
 import PlatformFilter from "./PlatformFilter";
-import GameCard from "./GameCard";
+import GameCard, { minWidth as GameCardMinWidth } from "./GameCard";
+
+const CardGrid = styled.div`
+  display: grid;
+  padding: 16px;
+  grid-gap: 32px;
+  grid-template-columns: repeat(auto-fill, minmax(${GameCardMinWidth}, 1fr));
+  justify-items: center;
+  align-items: end;
+`;
 
 export default function Catalog({ platforms, games }) {
   const [selectedPlatform, selectPlatform] = useState();
@@ -17,11 +27,11 @@ export default function Catalog({ platforms, games }) {
         selectedPlatform={selectedPlatform}
         selectPlatform={selectPlatform}
       />
-      <div>
+      <CardGrid>
         {filteredGames.map(game => (
           <GameCard key={game.name} {...game} />
         ))}
-      </div>
+      </CardGrid>
     </div>
   );
 }

@@ -2,8 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
+export const minWidth = "280px";
+
 const Card = styled.section`
-  min-width: 320px;
+  min-width: ${minWidth};
   max-width: 359px;
   background: #c4c4c4;
   border-radius: 8px;
@@ -12,7 +14,9 @@ const Card = styled.section`
 `;
 
 const Cover = styled.img`
+  width: 100%;
   height: 411px;
+  object-fit: cover;
 `;
 
 const Description = styled.div`
