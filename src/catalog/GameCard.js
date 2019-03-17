@@ -2,27 +2,26 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 
-export const minWidth = "280px";
-
 const Card = styled.section`
-  min-width: ${minWidth};
-  max-width: 359px;
-  background: #c4c4c4;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   border-radius: 8px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 `;
 
-const Cover = styled.img`
-  display: block;
-  width: 100%;
-  height: 411px;
-  object-fit: cover;
+const Cover = styled.div`
+  flex: 1;
+  background-color: #c4c4c4;
+  background-image: url(${props => props.cover});
+  background-position: center;
+  background-size: cover;
 `;
 
 const Description = styled.div`
   padding: 16px;
-  background: #ffffff;
+  background: white;
 `;
 
 const Name = styled.h2`
@@ -38,7 +37,7 @@ const Platform = styled.p`
 export default function GameCard({ name, platform, cover }) {
   return (
     <Card>
-      <Cover src={cover} />
+      <Cover cover={cover}> </Cover>
       <Description>
         <Name>{name}</Name>
         <Platform>{platform}</Platform>

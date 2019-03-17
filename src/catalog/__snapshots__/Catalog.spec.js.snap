@@ -49,21 +49,22 @@ exports[`Catalog has a header, a platform filter and a list of games 1`] = `
     </button>
   </nav>
   <div
-    class="sc-gZMcBi vuaQC"
+    class="sc-gZMcBi kNTwZH"
   >
     <a
-      class="sc-iwsKbI chHItE"
+      class="sc-iwsKbI bJyCXo"
       href="/game/0"
     >
       <section
-        class="sc-EHOje ctrEcs"
+        class="sc-EHOje deSQAN"
       >
-        <img
-          class="sc-bZQynM jsTAZr"
-          src="//placehold.it/359x411"
-        />
         <div
-          class="sc-gzVnrw jVtKtz"
+          class="sc-bZQynM jWoGuD"
+        >
+           
+        </div>
+        <div
+          class="sc-gzVnrw fOmOdP"
         >
           <h2
             class="sc-htoDjs ePsuFm"
@@ -79,18 +80,19 @@ exports[`Catalog has a header, a platform filter and a list of games 1`] = `
       </section>
     </a>
     <a
-      class="sc-iwsKbI chHItE"
+      class="sc-iwsKbI bJyCXo"
       href="/game/1"
     >
       <section
-        class="sc-EHOje ctrEcs"
+        class="sc-EHOje deSQAN"
       >
-        <img
-          class="sc-bZQynM jsTAZr"
-          src="//placehold.it/359x411"
-        />
         <div
-          class="sc-gzVnrw jVtKtz"
+          class="sc-bZQynM jWoGuD"
+        >
+           
+        </div>
+        <div
+          class="sc-gzVnrw fOmOdP"
         >
           <h2
             class="sc-htoDjs ePsuFm"
@@ -106,18 +108,19 @@ exports[`Catalog has a header, a platform filter and a list of games 1`] = `
       </section>
     </a>
     <a
-      class="sc-iwsKbI chHItE"
+      class="sc-iwsKbI bJyCXo"
       href="/game/2"
     >
       <section
-        class="sc-EHOje ctrEcs"
+        class="sc-EHOje deSQAN"
       >
-        <img
-          class="sc-bZQynM jsTAZr"
-          src="//placehold.it/359x411"
-        />
         <div
-          class="sc-gzVnrw jVtKtz"
+          class="sc-bZQynM jWoGuD"
+        >
+           
+        </div>
+        <div
+          class="sc-gzVnrw fOmOdP"
         >
           <h2
             class="sc-htoDjs ePsuFm"

@@ -3,14 +3,15 @@
 exports[`GameCard has a cover, a name and a platform 1`] = `
 <DocumentFragment>
   <section
-    class="sc-bdVaJa JRiOD"
+    class="sc-bdVaJa eWaJjR"
   >
-    <img
-      class="sc-bwzfXH ifQCSw"
-      src="//placehold.it/359x411"
-    />
     <div
-      class="sc-htpNat eSAjQD"
+      class="sc-bwzfXH hpGzrT"
+    >
+       
+    </div>
+    <div
+      class="sc-htpNat idEDlL"
     >
       <h2
         class="sc-bxivhb erAnRb"

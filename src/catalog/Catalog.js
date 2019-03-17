@@ -4,9 +4,12 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import Header from "../common/Header";
 import PlatformFilter from "./PlatformFilter";
-import GameCard, { minWidth as GameCardMinWidth } from "./GameCard";
+import GameCard from "./GameCard";
 
 const CardLink = styled(Link)`
+  width: 100%;
+  height: 100%;
+  max-width: 358px;
   color: inherit;
   text-decoration: inherit;
 `;
@@ -15,7 +18,8 @@ const CardGrid = styled.div`
   display: grid;
   padding: 16px;
   grid-gap: 32px;
-  grid-template-columns: repeat(auto-fill, minmax(${GameCardMinWidth}, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-auto-rows: 492px;
   justify-items: center;
   align-items: end;
 `;
