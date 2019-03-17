@@ -17,21 +17,33 @@ exports[`Catalog has a header, a platform filter and a list of games 1`] = `
     selectPlatform={[Function]}
   />
   <ForwardRef>
-    <GameCard
-      cover="//placehold.it/359x411"
-      name="Rayman"
-      platform="GBA"
-    />
-    <GameCard
-      cover="//placehold.it/359x411"
-      name="Rainbow Six"
-      platform="PC"
-    />
-    <GameCard
-      cover="//placehold.it/359x411"
-      name="Just Dance"
-      platform="Xbox"
-    />
+    <ForwardRef
+      to="/game/0"
+    >
+      <GameCard
+        cover="//placehold.it/359x411"
+        name="Rayman"
+        platform="GBA"
+      />
+    </ForwardRef>
+    <ForwardRef
+      to="/game/1"
+    >
+      <GameCard
+        cover="//placehold.it/359x411"
+        name="Rainbow Six"
+        platform="PC"
+      />
+    </ForwardRef>
+    <ForwardRef
+      to="/game/2"
+    >
+      <GameCard
+        cover="//placehold.it/359x411"
+        name="Just Dance"
+        platform="Xbox"
+      />
+    </ForwardRef>
   </ForwardRef>
 </React.Fragment>
 `;

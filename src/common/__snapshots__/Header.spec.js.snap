@@ -28,10 +28,14 @@ exports[`Header has a logo and a title 1`] = `
 <header
   className="c0"
 >
-  <img
-    className="c1"
-    src="ASSET"
-  />
+  <mock-link
+    to="/"
+  >
+    <img
+      className="c1"
+      src="ASSET"
+    />
+  </mock-link>
   <h1
     className="c2"
   >
