@@ -25,16 +25,12 @@ const Description = styled.div`
 `;
 
 const Name = styled.h2`
-  margin: 0;
-  padding: 0;
   font-weight: normal;
   font-size: 18px;
 `;
 
 const Platform = styled.p`
-  margin: 0;
   margin-top: 8px;
-  padding: 0;
   font-size: 14px;
 `;
 

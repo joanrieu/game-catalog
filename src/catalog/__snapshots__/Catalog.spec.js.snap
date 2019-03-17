@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Catalog has a header, a platform filter and a list of games 1`] = `
-<div>
+<React.Fragment>
   <Header
     title="Game catalog"
   />
@@ -33,5 +33,5 @@ exports[`Catalog has a header, a platform filter and a list of games 1`] = `
       platform="Xbox"
     />
   </ForwardRef>
-</div>
+</React.Fragment>
 `;

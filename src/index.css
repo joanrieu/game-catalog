@@ -6,9 +6,16 @@ body {
 }
 
 body {
-  background: #e5e5e5;
+  background: #f4f4f4;
   color: #333333;
   font-family: Roboto, sans-serif;
   font-size: 18px;
-  line-height: 25px;
+  line-height: calc(25 / 18);
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
 }

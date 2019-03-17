@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details has a hero image, a name, a platform and a multi-paragraph description 1`] = `
+Array [
+  .c0 {
+  background-color: #333333;
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  width: 32px;
+  height: 32px;
+  padding: 16px;
+}
+
+.c2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+<header
+    className="c0"
+  >
+    <img
+      className="c1"
+      src="ASSET"
+    />
+    <h1
+      className="c2"
+    >
+      Game details
+    </h1>
+  </header>,
+  .c0 {
+  height: 368px;
+  background-color: #c4c4c4;
+  background-image: url(//placehold.it/359x411);
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0px -16px 16px rgba(0,0,0,0.25);
+}
+
+<div
+    className="c0"
+  />,
+  .c0 {
+  max-width: 1168px;
+  margin: 64px auto;
+  padding: 64px 84px;
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+  background-color: white;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.c3 {
+  color: black;
+}
+
+.c3 > p {
+  margin-top: 32px;
+}
+
+<article
+    className="c0"
+  >
+    <div
+      className="c1"
+    >
+      <h1
+        className="c2"
+      >
+        Rainbow Six
+      </h1>
+      <p
+        className=""
+      >
+        PC
+      </p>
+    </div>
+    <div
+      className="c3"
+    >
+      <p>
+        Lorem ipsum.
+      </p>
+      <p>
+        Lorem ipsum.
+      </p>
+    </div>
+  </article>,
+]
+`;

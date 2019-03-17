@@ -1,27 +1,37 @@
 [
   {
-    "name": "Assassin's Creed",
+    "name": "Assassin's Creed III Remastered",
     "platform": "PS4",
-    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/ac3r_mobile_1136x1008_mobile_343546.jpg"
+    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/ac3r_mobile_1136x1008_mobile_343546.jpg",
+    "hero": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/hero/ac3r_mobile_1136x1008_mobile_343551.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "name": "Trials Rising",
     "platform": "PC",
-    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/thumbnail_trials_rising_750x422_mobile_326396.jpg"
+    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/thumbnail_trials_rising_750x422_mobile_326396.jpg",
+    "hero": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/hero/twt_keyart_1136x1008_mobile_326402.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "name": "The Division 2",
     "platform": "PC",
-    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/division2-ubicomgamepage-search_thumbnail-750x422_mobile_328763.jpg"
+    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/division2-ubicomgamepage-search_thumbnail-750x422_mobile_328763.jpg",
+    "hero": "https://ubistatic19-a.akamaihd.net/marketingresource/fr-fr/the-division/the-division-2/assets/images/tctd2_what_is.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "name": "Just Dance 2019",
     "platform": "X1",
-    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/jd2019_keyart_gamescom_desktop_mobile_325114.jpg"
+    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/jd2019_keyart_gamescom_desktop_mobile_325114.jpg",
+    "hero": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/hero/jd19_website_header_mobile_mobile_325145.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "name": "Fay Cry 3",
     "platform": "PC",
-    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/farcry3_138427.jpg"
+    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/farcry3_138427.jpg",
+    "hero": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/hero/farcry3_2x_cover_mobile_137014.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   }
 ]

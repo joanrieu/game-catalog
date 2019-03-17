@@ -2,9 +2,6 @@ import React from "react";
 import Renderer from "react-test-renderer/shallow";
 import "jest-styled-components";
 import Catalog from "./Catalog";
-import Header from "../common/Header";
-import PlatformFilter from "./PlatformFilter";
-import GameCard from "./GameCard";
 
 const platforms = ["PC", "PS4", "Xbox", "GBA"];
 

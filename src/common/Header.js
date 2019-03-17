@@ -17,8 +17,6 @@ const Logo = styled.img`
 `;
 
 const Title = styled.h1`
-  margin: 0;
-  padding: 0;
   font-weight: bold;
   font-size: 24px;
 `;

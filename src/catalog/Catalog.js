@@ -20,7 +20,7 @@ export default function Catalog({ platforms, games }) {
     ? games.filter(game => game.platform === selectedPlatform)
     : games;
   return (
-    <div>
+    <React.Fragment>
       <Header title="Game catalog" />
       <PlatformFilter
         platforms={platforms}
@@ -32,7 +32,7 @@ export default function Catalog({ platforms, games }) {
           <GameCard key={game.name} {...game} />
         ))}
       </CardGrid>
-    </div>
+    </React.Fragment>
   );
 }
 

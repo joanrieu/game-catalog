@@ -21,8 +21,6 @@ exports[`Header has a logo and a title 1`] = `
 }
 
 .c2 {
-  margin: 0;
-  padding: 0;
   font-weight: bold;
   font-size: 24px;
 }
