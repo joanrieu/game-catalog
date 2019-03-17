@@ -14,6 +14,7 @@ const Card = styled.section`
 `;
 
 const Cover = styled.img`
+  display: block;
   width: 100%;
   height: 411px;
   object-fit: cover;

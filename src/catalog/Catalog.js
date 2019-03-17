@@ -1,9 +1,15 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import Header from "../common/Header";
 import PlatformFilter from "./PlatformFilter";
 import GameCard, { minWidth as GameCardMinWidth } from "./GameCard";
+
+const CardLink = styled(Link)`
+  color: inherit;
+  text-decoration: inherit;
+`;
 
 const CardGrid = styled.div`
   display: grid;
@@ -28,8 +34,10 @@ export default function Catalog({ platforms, games }) {
         selectPlatform={selectPlatform}
       />
       <CardGrid>
-        {filteredGames.map(game => (
-          <GameCard key={game.name} {...game} />
+        {filteredGames.map((game, i) => (
+          <CardLink key={i} to={"/game/" + i}>
+            <GameCard {...game} />
+          </CardLink>
         ))}
       </CardGrid>
     </React.Fragment>
