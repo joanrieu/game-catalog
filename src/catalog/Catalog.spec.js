@@ -1,5 +1,5 @@
 import React from "react";
-import { render, cleanup } from "react-testing-library";
+import { render, fireEvent, cleanup } from "react-testing-library";
 import Catalog from "./Catalog";
 
 const platforms = ["PC", "PS4", "Xbox", "GBA"];
@@ -28,5 +28,12 @@ describe("Catalog", () => {
   it("has a header, a platform filter and a list of games", () => {
     const cmp = render(<Catalog platforms={platforms} games={games} />);
     expect(cmp.asFragment()).toMatchSnapshot();
+  });
+
+  it("shows the selected platform in the title", () => {
+    const cmp = render(<Catalog platforms={platforms} games={games} />);
+    const title = cmp.getByText("Game catalog");
+    fireEvent.click(cmp.getByText("Xbox"));
+    expect(title.textContent).toMatch("Xbox");
   });
 });

@@ -27,7 +27,11 @@ export default function Catalog({ platforms, games }) {
     : games;
   return (
     <React.Fragment>
-      <Header title="Game catalog" />
+      <Header
+        title={
+          "Game catalog" + (selectedPlatform ? ` (${selectedPlatform})` : "")
+        }
+      />
       <PlatformFilter
         platforms={platforms}
         selectedPlatform={selectedPlatform}
