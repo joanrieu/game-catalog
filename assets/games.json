@@ -1,17 +1,27 @@
 [
   {
-    "name": "Rayman",
-    "platform": "GBA",
-    "cover": "//placehold.it/359x411"
+    "name": "Assassin's Creed",
+    "platform": "PS4",
+    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/ac3r_mobile_1136x1008_mobile_343546.jpg"
   },
   {
-    "name": "Rainbow Six",
+    "name": "Trials Rising",
     "platform": "PC",
-    "cover": "//placehold.it/359x411"
+    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/thumbnail_trials_rising_750x422_mobile_326396.jpg"
   },
   {
-    "name": "Just Dance",
-    "platform": "Xbox",
-    "cover": "//placehold.it/359x411"
+    "name": "The Division 2",
+    "platform": "PC",
+    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/division2-ubicomgamepage-search_thumbnail-750x422_mobile_328763.jpg"
+  },
+  {
+    "name": "Just Dance 2019",
+    "platform": "X1",
+    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/jd2019_keyart_gamescom_desktop_mobile_325114.jpg"
+  },
+  {
+    "name": "Fay Cry 3",
+    "platform": "PC",
+    "cover": "https://ubistatic19-a.akamaihd.net/ubicomstatic/fr-fr/global/search-thumbnail/farcry3_138427.jpg"
   }
 ]
