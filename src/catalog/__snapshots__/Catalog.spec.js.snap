@@ -9,6 +9,7 @@ exports[`Catalog has a header, a platform filter and a list of games 1`] = `
       href="/"
     >
       <img
+        alt="Home"
         class="sc-bwzfXH ZQnxd"
         src="ASSET"
       />

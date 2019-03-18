@@ -9,6 +9,7 @@ exports[`Details has a hero image, a name, a platform and a multi-paragraph desc
       href="/"
     >
       <img
+        alt="Home"
         class="sc-bwzfXH ZQnxd"
         src="ASSET"
       />

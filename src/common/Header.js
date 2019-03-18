@@ -26,7 +26,7 @@ export default function Header({ title }) {
   return (
     <Wrapper>
       <Link to="/">
-        <Logo src={logoUrl} />
+        <Logo src={logoUrl} alt="Home" />
       </Link>
       <Title>{title}</Title>
     </Wrapper>

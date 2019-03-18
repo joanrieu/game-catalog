@@ -9,6 +9,7 @@ exports[`Header has a logo and a title 1`] = `
       href="/"
     >
       <img
+        alt="Home"
         class="sc-bwzfXH ZQnxd"
         src="ASSET"
       />
