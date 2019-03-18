@@ -20,7 +20,7 @@ exports[`Catalog has a header, a platform filter and a list of games 1`] = `
     </h1>
   </header>
   <nav
-    class="sc-bxivhb hyktqA"
+    class="sc-bxivhb gYQIdK"
   >
     <button
       class="sc-ifAKCX lnbSfD"
@@ -49,7 +49,7 @@ exports[`Catalog has a header, a platform filter and a list of games 1`] = `
     </button>
   </nav>
   <div
-    class="sc-gZMcBi kNTwZH"
+    class="sc-gZMcBi GxNwi"
   >
     <a
       class="sc-iwsKbI bJyCXo"

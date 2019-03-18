@@ -2,6 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import Header from "../common/Header";
+import {
+  smallScreenOnly,
+  mediumScreen,
+  largeScreen
+} from "../common/breakpoints";
 
 const Hero = styled.div`
   height: 368px;
@@ -12,18 +17,35 @@ const Hero = styled.div`
   box-shadow: inset 0px -16px 16px rgba(0, 0, 0, 0.25);
 `;
 
+const SheetWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 const Sheet = styled.article`
   max-width: 1168px;
-  margin: 64px auto;
-  padding: 64px 84px;
+  margin: 8px;
+  padding: 32px 16px;
   box-sizing: border-box;
   border: 1px solid #c4c4c4;
   background-color: white;
+
+  @media (${mediumScreen}) {
+    margin: 5vw;
+    padding: 5vw 7vw;
+  }
+
+  @media (${largeScreen}) {
+    margin: 64px;
+    padding: 64px 84px;
+  }
 `;
 
 const Headline = styled.div`
-  display: flex;
-  justify-content: space-between;
+  @media (${mediumScreen}) {
+    display: flex;
+    justify-content: space-between;
+  }
 `;
 
 const Name = styled.h1`
@@ -31,7 +53,15 @@ const Name = styled.h1`
   font-weight: bold;
 `;
 
-const Platform = styled.p``;
+const Platform = styled.p`
+  @media (${smallScreenOnly}) {
+    margin-top: 16px;
+  }
+
+  @media (${mediumScreen}) {
+    margin-left: 16px;
+  }
+`;
 
 const Description = styled.div`
   color: black;
@@ -46,17 +76,19 @@ export default function Details({ hero, name, platform, description }) {
     <React.Fragment>
       <Header title="Game details" />
       <Hero hero={hero} />
-      <Sheet>
-        <Headline>
-          <Name>{name}</Name>
-          <Platform>{platform}</Platform>
-        </Headline>
-        <Description>
-          {description.split("\n\n").map((paragraph, i) => (
-            <p key={i}>{paragraph}</p>
-          ))}
-        </Description>
-      </Sheet>
+      <SheetWrapper>
+        <Sheet>
+          <Headline>
+            <Name>{name}</Name>
+            <Platform>{platform}</Platform>
+          </Headline>
+          <Description>
+            {description.split("\n\n").map((paragraph, i) => (
+              <p key={i}>{paragraph}</p>
+            ))}
+          </Description>
+        </Sheet>
+      </SheetWrapper>
     </React.Fragment>
   );
 }

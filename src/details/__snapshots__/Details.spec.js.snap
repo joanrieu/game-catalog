@@ -22,33 +22,37 @@ exports[`Details has a hero image, a name, a platform and a multi-paragraph desc
   <div
     class="sc-bxivhb bFXeXP"
   />
-  <article
-    class="sc-ifAKCX jOChXZ"
+  <div
+    class="sc-ifAKCX hZphQU"
   >
-    <div
-      class="sc-EHOje gTGnrE"
+    <article
+      class="sc-EHOje dyyesI"
     >
-      <h1
-        class="sc-bZQynM kgRwQZ"
+      <div
+        class="sc-bZQynM xZoRQ"
       >
-        Rainbow Six
-      </h1>
-      <p
-        class="sc-gzVnrw ibZhkv"
+        <h1
+          class="sc-gzVnrw dKRxNX"
+        >
+          Rainbow Six
+        </h1>
+        <p
+          class="sc-htoDjs cygKRn"
+        >
+          PC
+        </p>
+      </div>
+      <div
+        class="sc-dnqmqq ggxhkz"
       >
-        PC
-      </p>
-    </div>
-    <div
-      class="sc-htoDjs ikyIka"
-    >
-      <p>
-        Lorem ipsum.
-      </p>
-      <p>
-        Lorem ipsum.
-      </p>
-    </div>
-  </article>
+        <p>
+          Lorem ipsum.
+        </p>
+        <p>
+          Lorem ipsum.
+        </p>
+      </div>
+    </article>
+  </div>
 </DocumentFragment>
 `;

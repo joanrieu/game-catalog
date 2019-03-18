@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import Header from "../common/Header";
+import { mediumScreen } from "../common/breakpoints";
 import PlatformFilter from "./PlatformFilter";
 import GameCard from "./GameCard";
 
@@ -16,12 +17,17 @@ const CardLink = styled(Link)`
 
 const CardGrid = styled.div`
   display: grid;
-  padding: 16px;
-  grid-gap: 32px;
+  margin: 16px 8px;
+  grid-gap: 16px;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  grid-auto-rows: 492px;
+  grid-auto-rows: 495px;
   justify-items: center;
   align-items: end;
+
+  @media (${mediumScreen}) {
+    margin: 16px;
+    grid-gap: 32px;
+  }
 `;
 
 export default function Catalog({ platforms, games }) {

@@ -1,9 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
+import { mediumScreen } from "../common/breakpoints";
 
 const Wrapper = styled.nav`
-  padding: 16px;
+  margin: 16px 8px;
+
+  @media (${mediumScreen}) {
+    margin: 16px;
+  }
 `;
 
 const Platform = styled.button`
