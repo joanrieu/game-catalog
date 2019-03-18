@@ -26,9 +26,7 @@
     "parcel-bundler": "^1.12.2",
     "prettier": "^1.16.4",
     "pretty-quick": "^1.10.0",
-    "react-test-renderer": "^16.8.4",
-    "react-testing-library": "^6.0.0",
-    "sass": "^1.17.3"
+    "react-testing-library": "^6.0.0"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
