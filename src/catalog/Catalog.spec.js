@@ -30,6 +30,13 @@ describe("Catalog", () => {
     expect(cmp.asFragment()).toMatchSnapshot();
   });
 
+  it("shows games of the selected platform only", () => {
+    const cmp = render(<Catalog platforms={platforms} games={games} />);
+    fireEvent.click(cmp.getByText("Xbox"));
+    expect(cmp.queryByText("Just Dance")).toBeTruthy();
+    expect(cmp.queryByText("Rainbow Six")).toBeFalsy();
+  });
+
   it("shows the selected platform in the title", () => {
     const cmp = render(<Catalog platforms={platforms} games={games} />);
     const title = cmp.getByText("Game catalog");
